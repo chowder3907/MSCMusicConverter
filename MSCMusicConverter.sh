@@ -1,6 +1,6 @@
 #!/bin/bash
-PS4='+${LINENO}: '
-set -x # enable these 2 lines for debugging
+#PS4='+${LINENO}: '
+#set -x # enable these 2 lines for debugging
 
 if ! command -v ffmpeg &> /dev/null; then
     echo "Warning: ffmpeg is not installed. Please install ffmpeg to continue."
